@@ -27,7 +27,7 @@ global.botname = process.env.BOT_NAME || 'CypherX'
 
 //-----------------[ OWNER NUMBER ]------------------//
 
-global.ownernumber = process.env.OWNER_NUMBER || '254754783972' 
+global.ownernumber = process.env.OWNER_NUMBER || '237674478083' 
 
 //-----------------[ OWNER NAME ]------------------//
 
