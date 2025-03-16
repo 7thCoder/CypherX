@@ -18,12 +18,12 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //--------------------[ SESSION ID ]----------------------//
 
-global.SESSION_ID = process.env.SESSION_ID || '' 
+global.SESSION_ID = process.env.SESSION_ID || 'XPLOADER-BOT:~GvhmHZjC#aQPntn5UVgLBiMILbrgJMrou469cDnjrx0s7dS1s8ZI' 
 //Enter your Xploader session id here; must start with XPLOADER-BOT:~
 
 //--------------------[ BOT NAME ]----------------------//
 
-global.botname = process.env.BOT_NAME || 'CypherX' 
+global.botname = process.env.BOT_NAME || 'ShakoX' 
 
 //-----------------[ OWNER NUMBER ]------------------//
 
@@ -35,7 +35,7 @@ global.ownername = process.env.OWNER_NAME || 'Tylor'
 
 //------------[ STICKER PACKNAME ]-----------------//
 
-global.packname = process.env.STICKER_PACK_NAME || "Cypher" 
+global.packname = process.env.STICKER_PACK_NAME || "Cy" 
 
 //--------------[ STICKER AUTHOR NAME ]------------//
 
