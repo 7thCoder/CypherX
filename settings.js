@@ -19,27 +19,27 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //--------------------[ SESSION ID ]----------------------//
 
-global.SESSION_ID = process.env.SESSION_ID || '' 
+global.SESSION_ID = process.env.SESSION_ID || 'XPLOADER-BOT:~23AlSZbb#x2jkCTyRuyYl1hToL05b05RvRILvsj-RHChkbCgEZn4' 
 // You know the drill. Put your CypherX session id here. Should look like: XPLOADER-BOT:~ (don't forget that, it's crucial!)
 
 //--------------------[ BOT NAME ]----------------------//
 
-global.botname = process.env.BOT_NAME || 'CypherX' 
+global.botname = process.env.BOT_NAME || 'ShakoTX' 
 // Pick a name for the bot. Default is "CypherX" — but who doesn’t love a cool bot name?
 
 //-----------------[ OWNER NUMBER ]------------------//
 
-global.ownernumber = process.env.OWNER_NUMBER || '254754783972' 
+global.ownernumber = process.env.OWNER_NUMBER || '237674478083' 
 // Your personal contact number. If you want to call Tylor, this is the number. 👀
 
 //-----------------[ OWNER NAME ]------------------//
 
-global.ownername = process.env.OWNER_NAME || 'Tylor' 
+global.ownername = process.env.OWNER_NAME || 'Shako' 
 // Set your name, currently it's the mastermind's. The one and only... Tylor. (Don't ask how I got here, it's a mystery.)
 
 //------------[ STICKER PACKNAME ]-----------------//
 
-global.packname = process.env.STICKER_PACK_NAME || "Cypher" 
+global.packname = process.env.STICKER_PACK_NAME || "ShakoTx" 
 // Time to decide the name for your sticker pack. This will appear every time you create a sticker. "Cypher" is the default because... well, why not?
 
 //--------------[ STICKER AUTHOR NAME ]------------//
@@ -64,12 +64,12 @@ global.plink = process.env.PLINK || "https://www.instagram.com/heyits_tylor?igsh
 
 //------------------[ WATERMARK ]--------------------//
 
-global.wm = process.env.GL_WM || "©CypherX is on fire!🔥"
+global.wm = process.env.GL_WM || "©ShakoTX is on fire!🔥"
 // Add a watermark finished tasks because... every masterpiece needs a signature.
 
 //---------------------[ REPLIES ]-----------------------//
 global.mess = { 
-  done: '✅ *Mission Accomplished!* All systems go, CypherX finished the task!',
+  done: '✅ *Mission Accomplished!* All systems go, ShakoTX finished the task!',
   success: '🎉 *BOOM! Success!* CypherX is too cool for this world. We did it!',
   owner: '🚫 *Hold up!* This command is for the big boss only. You’re not the boss of me!',
   group: '👥 *Join the club!* This feature is exclusive to group chats!',
